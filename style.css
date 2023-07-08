@@ -9,7 +9,7 @@ body{
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
-    color: var(--white-color, #FFF)
+    color: #fff;
     font-size: 20px;
     font-weight: 700;
     padding: 18px 35px 19px 36px;
@@ -19,6 +19,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .title{
 color: #181818;
@@ -36,4 +37,34 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* hedder related styles */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.benner{
+    padding: 30px 38px 0px 200px;
+    display: flex;
+    align-items: center;
+}
+.imgmy{
+    height: 500px;
+}
+.greet{
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--dark-02, #474747);
+    margin-bottom: 0;
+}
+.greet2{
+    margin-top: 5px;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.greet3{
+    margin-top: 5px;
 }
