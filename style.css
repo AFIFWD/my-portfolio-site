@@ -14,6 +14,19 @@ body{
     font-weight: 700;
     padding: 18px 35px 19px 36px;
 }
+.sa-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.sa-discription{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /* nav related style */
 nav{
     display: flex;
@@ -48,7 +61,12 @@ nav a{
 .benner{
     padding: 30px 38px 0px 200px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+.benner-content{
+    max-width: 500px;
+
 }
 .imgmy{
     height: 500px;
@@ -67,4 +85,59 @@ nav a{
 }
 .greet3{
     margin-top: 5px;
+    font-size: 18px;
+}
+/* main related styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+
+/* about section styles */
+.about{
+    padding: 130px;
+    margin: 130px 0;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.sa-discription{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.saf-container{
+    display: flex;
+    justify-content: space-around;
+}
+.sa-info{
+    text-align: center;
+}
+/* what i do related styles */
+#what{
+    padding: 30px 150px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    border-radius: 5px;
+    background:#ffffff;
+    width: 267px;
+    height: 377px;
+    padding: 33px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    
 }
